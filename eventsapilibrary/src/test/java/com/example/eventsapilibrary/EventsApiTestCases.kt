@@ -5,9 +5,9 @@ import org.junit.Assert
 import org.junit.Test
 
 class EventsApiTestCases{
+
     @Test
     fun testQuery(){
-
         //
         val listItems: MutableList<Events> = EventLib.searchForEvent("movie")
         val listItemInt: MutableList<Events> = EventLib.searchForEvent("1234")

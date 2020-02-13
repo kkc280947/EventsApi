@@ -29,6 +29,4 @@ class SearchRepository {
         }.start()
         return joinEventSuccessResult
     }
-
-    fun getInt() = 5
 }
