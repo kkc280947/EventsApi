@@ -4,6 +4,8 @@
 
 - Use the library by calling `EventLib.searchForEvent("movie")`
 - Network call are handled inside the library.
+- Sample uses MVVM architecture with dagger.
+
 
 ### Implementation
 - Add it in your root build.gradle at the end of repositories:
